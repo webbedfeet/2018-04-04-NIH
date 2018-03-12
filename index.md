@@ -656,7 +656,6 @@ collaborative_notes: http://pad.software-carpentry.org/2018-04-04-NIH           
 </div> {% comment %} End of 'R' section. {% endcomment %}
 
 <!--
-
 <div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
   <h3>SQLite</h3>
 
@@ -775,3 +774,4 @@ collaborative_notes: http://pad.software-carpentry.org/2018-04-04-NIH           
   </ol>
 </div>
 {% endcomment %}
+-->
