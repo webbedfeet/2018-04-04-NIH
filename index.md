@@ -46,10 +46,6 @@ collaborative_notes: http://pad.software-carpentry.org/2018-04-04-NIH           
 </iframe>
 {% endif %}
 
-<h4>This is the workshop template. Delete these lines and use it to customize your own website.
-If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
-and our administrator may contact you if we need any extra information.</h4>
 
 <h2 id="general">General Information</h2>
 
@@ -122,7 +118,7 @@ and our administrator may contact you if we need any extra information.</h4>
   <strong>Requirements:</strong> Participants must bring a laptop with a
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
   on. They should have a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by
+  <a href="#setup">below</a>). There may be a very limited number of pre-loaded laptops available. Please contact the instructors if you cannot bring a laptop with appropriate software loaded. They are also required to abide by
   {% if page.carpentry == "swc" %}
   Software Carpentry's
   {% elsif page.carpentry == "dc" %}
@@ -660,6 +656,7 @@ and our administrator may contact you if we need any extra information.</h4>
 </div> {% comment %} End of 'R' section. {% endcomment %}
 
 <!--
+
 <div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
   <h3>SQLite</h3>
 
