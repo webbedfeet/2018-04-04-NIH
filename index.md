@@ -259,6 +259,29 @@ collaborative_notes: http://pad.software-carpentry.org/2018-04-04-NIH           
 
 <hr/>
 
+<div style="background-color:wheat;">
+<h3>Materials and links from class</h3>
+
+- [Script from R modules](https://www.dropbox.com/s/3aw4aontnlq65og/Day1.R?dl=0)
+- Links to resources
+  - R
+    - [R for Data Science](r4ds.had.co.nz)
+    - [RMarkdown](https://rmarkdown.rstudio.com)
+    - [Bioconductor for bioinformatics](https://www.bioconductor.org)
+    - [CRAN Task Views](https://cran.rstudio.com/web/views/)
+    - [Tidy data](http://vita.had.co.nz/papers/tidy-data.html)
+    - [FAES BIOF339](http://www.araastat.com/BIOF339_PracticalR)
+    - [ggplot2 documentation](http://ggplot2.tidyverse.org/reference/)
+    - [Google R style guide](https://google.github.io/styleguide/Rguide.xml)
+    - [Regular expressions](https://regex101.com/)
+  - Git and GitHub
+    - [Happy Git and GitHub for the useR](http://happygitwithr.com/)
+    - [tryGit](https://try.github.io/levels/1/challenges/1)
+  - Cheatsheets
+    - [RStudio R sheets](https://www.rstudio.com/resources/cheatsheets/)
+    - [tidyverse sheet](http://datacamp-community.s3.amazonaws.com/e63a8f6b-2aa3-4006-89e0-badc294b179c)
+
+</div>
 {% comment %}
   SETUP
 
