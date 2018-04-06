@@ -69,9 +69,6 @@ directions if the latitude and longitude of the workshop have been set. You can 
 <p>Ask your instructor about pre- and post-workshop Survey details.</p>
 {% endif %}
 
-<p style='background-color:wheat'>
-<a href='#materials'>Materials from workshop</a>
-</p>
 
 {% if page.carpentry == "swc" %} {% include sc/schedule.html %} {% elsif page.carpentry == "dc" %} {% include dc/schedule.html %} {% elsif page.carpentry == "lc" %} {% include lc/schedule.html %} {% endif %} {% comment %} Collaborative Notes
 If you want to use an Etherpad, go to http://pad.software-carpentry.org/YYYY-MM-DD-site where 'YYYY-MM-DD-site' is the identifier for your workshop, e.g., '2015-06-10-esu'. {% endcomment %} {% if page.collaborative_notes %}
