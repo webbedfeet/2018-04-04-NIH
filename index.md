@@ -21,14 +21,23 @@ template. {% endcomment %}
 {% comment %} HEADER Edit the values in the block above to be appropriate for your workshop. If the value is not 'true', 'false', 'null', or a number, please use double quotation marks around the value, unless specified otherwise.
 And run 'make workshop-check' *before* committing to make sure that changes are good. {% endcomment %}
 {% comment %} EVENTBRITE This block includes the Eventbrite registration widget if 'eventbrite' has been set in the header. You can delete it if you
-are not using Eventbrite, or leave it in, since it will not be displayed if the 'eventbrite' field in the header is not set. {% endcomment %} {% if page.eventbrite %}
+are not using Eventbrite, or leave it in, since it will not be displayed if the 'eventbrite' field in the header is not set.
+{% endcomment %}
+{% if page.eventbrite %}
 <iframe src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt" frameborder="0" width="100%" height="248px" scrolling="auto">
-</iframe> {% endif %}
+</iframe>
+{% endif %}
 
 
-<h2 id="general">General Information</h2> {% comment %} INTRODUCTION Edit the general explanatory paragraph below if you want to change the pitch. {% endcomment %} {% if page.carpentry == "swc" %} {% include sc/intro.html %} {% elsif page.carpentry == "dc" %} {% include dc/intro.html %} {% elsif
-page.carpentry == "lc" %} {% include lc/intro.html %} {% endif %} {% comment %} AUDIENCE Explain who your audience is. (In particular, tell readers if the workshop is only open to people from a particular institution. {% endcomment %} {% if page.carpentry
-== "swc" %} {% include sc/who.html %} {% elsif page.carpentry == "dc" %} {% include dc/who.html %} {% elsif page.carpentry == "lc" %} {% include lc/who.html %} {% endif %} {% comment %} LOCATION This block displays the address and links to maps showing
+<h2 id="general">General Information</h2> {% comment %} INTRODUCTION Edit the general explanatory paragraph below if you want to change the pitch. {% endcomment %}
+{% if page.carpentry == "swc" %} {% include sc/intro.html %}
+{% elsif page.carpentry == "dc" %} {% include dc/intro.html %}
+{% elsif page.carpentry == "lc" %} {% include lc/intro.html %} {% endif %}
+{% comment %} AUDIENCE Explain who your audience is. (In particular, tell readers if the workshop is only open to people from a particular institution. {% endcomment %}
+{% if page.carpentry== "swc" %} {% include sc/who.html %}
+{% elsif page.carpentry == "dc" %} {% include dc/who.html %}
+{% elsif page.carpentry == "lc" %} {% include lc/who.html %} {% endif %}
+{% comment %} LOCATION This block displays the address and links to maps showing
 directions if the latitude and longitude of the workshop have been set. You can use http://itouchmap.com/latlong.html to find the lat/long of an address. {% endcomment %} {% if page.latlng %}
 <p id="where">
   <strong>Where:</strong> {{page.address}}. Get directions with
@@ -86,14 +95,7 @@ If you want to use an Etherpad, go to http://pad.software-carpentry.org/YYYY-MM-
   We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 {% endif %}
-
-<hr/> {% comment %} SYLLABUS Show what topics will be covered. 1. If your workshop is R rather than Python, remove the comment around that section and put a comment around the Python section. 2. Some workshops will delete SQL. 3. Please make sure the list
-of topics is synchronized with what you intend to teach. 4. You may need to move the div's with class="col-md-6" around inside the div's with class="row" to balance the multi-column layout. This is one of the places where people frequently make mistakes,
-so please preview your site before committing, and make sure to run 'tools/check' as well. {% endcomment %}
-<h2 id="syllabus">Syllabus</h2> {% if page.carpentry == "swc" %} {% include sc/syllabus.html %} {% elsif page.carpentry == "dc" %} {% include dc/syllabus.html %} {% elsif page.carpentry == "lc" %} {% include lc/syllabus.html %} {% endif %}
-
 <hr/>
-
 <div id="materials" style="background-color:wheat;">
   <h3>Materials and links from class</h3>
 
@@ -126,6 +128,14 @@ so please preview your site before committing, and make sure to run 'tools/check
       </ul>
   </ul>
 </div>
+
+<hr/> {% comment %} SYLLABUS Show what topics will be covered. 1. If your workshop is R rather than Python, remove the comment around that section and put a comment around the Python section. 2. Some workshops will delete SQL. 3. Please make sure the list
+of topics is synchronized with what you intend to teach. 4. You may need to move the div's with class="col-md-6" around inside the div's with class="row" to balance the multi-column layout. This is one of the places where people frequently make mistakes,
+so please preview your site before committing, and make sure to run 'tools/check' as well. {% endcomment %}
+<h2 id="syllabus">Syllabus</h2> {% if page.carpentry == "swc" %} {% include sc/syllabus.html %} {% elsif page.carpentry == "dc" %} {% include dc/syllabus.html %} {% elsif page.carpentry == "lc" %} {% include lc/syllabus.html %} {% endif %}
+
+<hr/>
+
 {% comment %} SETUP Delete irrelevant sections from the setup instructions. Each section is inside a 'div' without any classes to make the beginning and end easier to find. This is the other place where people frequently make mistakes, so please preview
 your site before committing, and make sure to run 'tools/check' as well. {% endcomment %}
 
