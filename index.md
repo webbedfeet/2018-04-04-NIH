@@ -46,7 +46,7 @@ directions if the latitude and longitude of the workshop have been set. You can 
   <strong>When:</strong> {{page.humandate}}. {% include workshop_calendar.html %}
 </p>
 {% endif %} {% comment %} SPECIAL REQUIREMENTS Modify the block below if there are any special requirements. {% endcomment %}
-<p>
+<p style='color:red;'>
 <a href="#materials">Materials from workshop</a>
 </p>
 
