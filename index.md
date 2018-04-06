@@ -100,12 +100,12 @@ If you want to use an Etherpad, go to http://pad.software-carpentry.org/YYYY-MM-
 <div id="materials" style="background-color:wheat;">
   <h3>Materials and links from class</h3>
 
- <a href="https://www.dropbox.com/s/3aw4aontnlq65og/Day1.R?dl=0">Script from R modules</a><br/>
+ <a target="_blank"  href="https://www.dropbox.com/s/3aw4aontnlq65og/Day1.R?dl=0">Script from R modules</a><br/>
 Links to resources<br/>
       <ul>
         <li> R</li>
         <ul>
-          <li> <a target="_blank" href="https://r4ds.had.co.nz">R for Data Science</a></li>
+          <li> <a target="_blank" href="http://r4ds.had.co.nz">R for Data Science</a></li>
           <li> <a target="_blank" href="https://rmarkdown.rstudio.com">RMarkdown</a></li>
           <li> <a target="_blank" href="https://www.bioconductor.org">Bioconductor for bioinformatics</a></li>
           <li><a target="_blank" href="https://cran.rstudio.com/web/views/">CRAN Task Views</a></li>
