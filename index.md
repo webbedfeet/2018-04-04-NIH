@@ -118,7 +118,7 @@ Links to resources<br/>
         <li>Git and GitHub</li>
         <ul>
           <li> <a href="http://happygitwithr.com/">Happy Git and GitHub for the useR</a></li>
-          <li><a href="https://try.github.io/levels/1/challenges/1"> [tryGit</a></li>
+          <li><a href="https://try.github.io/levels/1/challenges/1"> tryGit</a></li>
         </ul>
         <li> Cheatsheets</li>
         <ul>
