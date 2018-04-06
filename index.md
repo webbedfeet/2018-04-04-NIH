@@ -86,10 +86,11 @@ directions if the latitude and longitude of the workshop have been set. You can 
 <p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% elsif page.carpentry == "lc" %}
 <p>Ask your instructor about pre- and post-workshop Survey details.</p>
+{% endif %}
 <p>
 <a href="#materials">Materials from workshop</a>
 </p>
-{% endif %}{% if page.carpentry == "swc" %} {% include sc/schedule.html %} {% elsif page.carpentry == "dc" %} {% include dc/schedule.html %} {% elsif page.carpentry == "lc" %} {% include lc/schedule.html %} {% endif %} {% comment %} Collaborative Notes
+{% if page.carpentry == "swc" %} {% include sc/schedule.html %} {% elsif page.carpentry == "dc" %} {% include dc/schedule.html %} {% elsif page.carpentry == "lc" %} {% include lc/schedule.html %} {% endif %} {% comment %} Collaborative Notes
 If you want to use an Etherpad, go to http://pad.software-carpentry.org/YYYY-MM-DD-site where 'YYYY-MM-DD-site' is the identifier for your workshop, e.g., '2015-06-10-esu'. {% endcomment %} {% if page.collaborative_notes %}
 <p id="collaborative_notes">
   We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
@@ -106,23 +107,23 @@ Links to resources<br/>
         <ul>
           <li> <a href="r4ds.had.co.nz">R for Data Science</a></li>
           <li> <a href="https://rmarkdown.rstudio.com">RMarkdown</a></li>
-          <li> [Bioconductor for bioinformatics](https://www.bioconductor.org)</li>
-          <li>[CRAN Task Views](https://cran.rstudio.com/web/views/)</li>
-          <li>[Tidy data](http://vita.had.co.nz/papers/tidy-data.html)</li>
-          <li>[FAES BIOF339](http://www.araastat.com/BIOF339_PracticalR)</li>
-          <li>[ggplot2 documentation](http://ggplot2.tidyverse.org/reference/)</li>
-          <li>[Google R style guide](https://google.github.io/styleguide/Rguide.xml)</li>
-          <li>[Regular expressions](https://regex101.com/)</li>
+          <li> <a href="https://www.bioconductor.org">Bioconductor for bioinformatics</a></li>
+          <li><a href="https://cran.rstudio.com/web/views/">CRAN Task Views</a></li>
+          <li><a href="http://vita.had.co.nz/papers/tidy-data.html">Tidy data</a></li>
+          <li><a href="http://www.araastat.com/BIOF339_PracticalR">FAES BIOF339</a></li>
+          <li><a href="http://ggplot2.tidyverse.org/reference/">ggplot2 documentation</a></li>
+          <li><a href="https://google.github.io/styleguide/Rguide.xml">Google R style guide</a></li>
+          <li><a href="https://regex101.com/">Regular expressions</a></li>
         </ul>
         <li>Git and GitHub</li>
         <ul>
-          <li> [Happy Git and GitHub for the useR](http://happygitwithr.com/)</li>
-          <li> [tryGit](https://try.github.io/levels/1/challenges/1)</li>
+          <li> <a href="http://happygitwithr.com/">Happy Git and GitHub for the useR</a></li>
+          <li><a href="https://try.github.io/levels/1/challenges/1"> [tryGit</a></li>
         </ul>
         <li> Cheatsheets</li>
         <ul>
-          <li> [RStudio R sheets](https://www.rstudio.com/resources/cheatsheets/)</li>
-          <li> [tidyverse sheet](http://datacamp-community.s3.amazonaws.com/e63a8f6b-2aa3-4006-89e0-badc294b179c)</li>
+          <li> <a href="https://www.rstudio.com/resources/cheatsheets/">RStudio R sheets</a></li>
+          <li> <a href="http://datacamp-community.s3.amazonaws.com/e63a8f6b-2aa3-4006-89e0-badc294b179c">tidyverse sheet</a></li>
         </ul>
       </ul>
 </div>
