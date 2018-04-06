@@ -30,13 +30,10 @@ are not using Eventbrite, or leave it in, since it will not be displayed if the 
 
 
 <h2 id="general">General Information</h2> {% comment %} INTRODUCTION Edit the general explanatory paragraph below if you want to change the pitch. {% endcomment %}
-{% if page.carpentry == "swc" %} {% include sc/intro.html %}
-{% elsif page.carpentry == "dc" %} {% include dc/intro.html %}
-{% elsif page.carpentry == "lc" %} {% include lc/intro.html %} {% endif %}
+{% if page.carpentry == "swc" %} {% include sc/intro.html %}{% elsif page.carpentry == "dc" %} {% include dc/intro.html %}{% elsif page.carpentry == "lc" %} {% include lc/intro.html %} {% endif %}
 {% comment %} AUDIENCE Explain who your audience is. (In particular, tell readers if the workshop is only open to people from a particular institution. {% endcomment %}
-{% if page.carpentry== "swc" %} {% include sc/who.html %}
-{% elsif page.carpentry == "dc" %} {% include dc/who.html %}
-{% elsif page.carpentry == "lc" %} {% include lc/who.html %} {% endif %}
+{% if page.carpentry== "swc" %} {% include sc/who.html %}{% elsif page.carpentry == "dc" %} {% include dc/who.html %}{% elsif page.carpentry == "lc" %} {% include lc/who.html %} {% endif %}
+
 {% comment %} LOCATION This block displays the address and links to maps showing
 directions if the latitude and longitude of the workshop have been set. You can use http://itouchmap.com/latlong.html to find the lat/long of an address. {% endcomment %} {% if page.latlng %}
 <p id="where">
