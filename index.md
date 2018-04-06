@@ -105,25 +105,25 @@ Links to resources<br/>
       <ul>
         <li> R</li>
         <ul>
-          <li> <a href="r4ds.had.co.nz">R for Data Science</a></li>
-          <li> <a href="https://rmarkdown.rstudio.com">RMarkdown</a></li>
-          <li> <a href="https://www.bioconductor.org">Bioconductor for bioinformatics</a></li>
-          <li><a href="https://cran.rstudio.com/web/views/">CRAN Task Views</a></li>
-          <li><a href="http://vita.had.co.nz/papers/tidy-data.html">Tidy data</a></li>
-          <li><a href="http://www.araastat.com/BIOF339_PracticalR">FAES BIOF339</a></li>
-          <li><a href="http://ggplot2.tidyverse.org/reference/">ggplot2 documentation</a></li>
-          <li><a href="https://google.github.io/styleguide/Rguide.xml">Google R style guide</a></li>
-          <li><a href="https://regex101.com/">Regular expressions</a></li>
+          <li> <a target="_blank" href="https://r4ds.had.co.nz">R for Data Science</a></li>
+          <li> <a target="_blank" href="https://rmarkdown.rstudio.com">RMarkdown</a></li>
+          <li> <a target="_blank" href="https://www.bioconductor.org">Bioconductor for bioinformatics</a></li>
+          <li><a target="_blank" href="https://cran.rstudio.com/web/views/">CRAN Task Views</a></li>
+          <li><a target="_blank" href="http://vita.had.co.nz/papers/tidy-data.html">Tidy data</a></li>
+          <li><a target="_blank" href="http://www.araastat.com/BIOF339_PracticalR">FAES BIOF339</a></li>
+          <li><a target="_blank" href="http://ggplot2.tidyverse.org/reference/">ggplot2 documentation</a></li>
+          <li><a target="_blank" href="https://google.github.io/styleguide/Rguide.xml">Google R style guide</a></li>
+          <li><a target="_blank" href="https://regex101.com/">Regular expressions</a></li>
         </ul>
         <li>Git and GitHub</li>
         <ul>
-          <li> <a href="http://happygitwithr.com/">Happy Git and GitHub for the useR</a></li>
-          <li><a href="https://try.github.io/levels/1/challenges/1"> tryGit</a></li>
+          <li> <a target="_blank" href="http://happygitwithr.com/">Happy Git and GitHub for the useR</a></li>
+          <li><a target="_blank" href="https://try.github.io/levels/1/challenges/1"> tryGit</a></li>
         </ul>
         <li> Cheatsheets</li>
         <ul>
-          <li> <a href="https://www.rstudio.com/resources/cheatsheets/">RStudio R sheets</a></li>
-          <li> <a href="http://datacamp-community.s3.amazonaws.com/e63a8f6b-2aa3-4006-89e0-badc294b179c">tidyverse sheet</a></li>
+          <li> <a target="_blank" href="https://www.rstudio.com/resources/cheatsheets/">RStudio R sheets</a></li>
+          <li> <a target="_blank" href="http://datacamp-community.s3.amazonaws.com/e63a8f6b-2aa3-4006-89e0-badc294b179c">tidyverse sheet</a></li>
         </ul>
       </ul>
 </div>
