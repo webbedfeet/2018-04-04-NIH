@@ -1,4 +1,5 @@
---- layout: workshop # DON'T CHANGE THIS.
+---
+layout: workshop # DON'T CHANGE THIS.
 carpentry: "swc" # what kind of Carpentry (must be either "lc" or "dc" or "swc")
 venue: "National Institutes of Health" # brief name of host site without address (e.g., "Euphoric State University")
 address: "Building 10 Library, 10 Center Drive, Bethesda MD 20892" # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
@@ -15,7 +16,9 @@ names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Denise Liberton","Vinai Roopchansingh"] # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["adasgupta@araastat.com",
 "joubertd@ors.od.nih.gov"] # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes:http://pad.software-carpentry.org/2018-04-04-NIH # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document ---
+collaborative_notes:http://pad.software-carpentry.org/2018-04-04-NIH # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+---
+
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop
 template. {% endcomment %}
 {% comment %} HEADER Edit the values in the block above to be appropriate for your workshop. If the value is not 'true', 'false', 'null', or a number, please use double quotation marks around the value, unless specified otherwise.
