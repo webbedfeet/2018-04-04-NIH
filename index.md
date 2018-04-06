@@ -99,9 +99,8 @@ If you want to use an Etherpad, go to http://pad.software-carpentry.org/YYYY-MM-
 <div id="materials" style="background-color:wheat;">
   <h3>Materials and links from class</h3>
 
-  <ul>
-    <li> <a href="https://www.dropbox.com/s/3aw4aontnlq65og/Day1.R?dl=0">Script from R modules</a>
-      <li> Links to resources</li>
+ <a href="https://www.dropbox.com/s/3aw4aontnlq65og/Day1.R?dl=0">Script from R modules</a><br/>
+Links to resources<br/>
       <ul>
         <li> R</li>
         <ul>
@@ -126,7 +125,6 @@ If you want to use an Etherpad, go to http://pad.software-carpentry.org/YYYY-MM-
           <li> [tidyverse sheet](http://datacamp-community.s3.amazonaws.com/e63a8f6b-2aa3-4006-89e0-badc294b179c)</li>
         </ul>
       </ul>
-  </ul>
 </div>
 
 <hr/> {% comment %} SYLLABUS Show what topics will be covered. 1. If your workshop is R rather than Python, remove the comment around that section and put a comment around the Python section. 2. Some workshops will delete SQL. 3. Please make sure the list
